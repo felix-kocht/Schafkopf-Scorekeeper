@@ -10,7 +10,7 @@ export function Hero() {
             <img
               src="/lovable-uploads/b8090340-c0d2-477b-bbd0-a07115892556.png"
               alt="Scorekeeper App Interface"
-              className="w-64 md:w-80 h-auto transform rotate-[-5deg] drop-shadow-2xl animate-fade-in"
+              className="w-[200px] md:w-[240px] lg:w-[280px] transform rotate-[-5deg] drop-shadow-2xl animate-fade-in"
             />
           </div>
           <div className="w-full md:w-1/2 space-y-6 text-center md:text-left">
