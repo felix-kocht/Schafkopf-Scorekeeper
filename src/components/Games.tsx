@@ -1,4 +1,4 @@
-import { PlayingCards } from "lucide-react";
+import { Gamepad } from "lucide-react";
 
 const games = [
   { name: "Schafkopf", players: "4 players" },
@@ -20,7 +20,7 @@ export function Games() {
               key={index}
               className="p-6 rounded-lg bg-navy-light border border-gray-800 hover:border-blue-500/50 transition-all duration-300 text-center group"
             >
-              <PlayingCards className="w-12 h-12 mx-auto mb-4 text-blue-500 group-hover:text-blue-400 transition-colors" />
+              <Gamepad className="w-12 h-12 mx-auto mb-4 text-blue-500 group-hover:text-blue-400 transition-colors" />
               <h3 className="text-xl font-semibold mb-2">{game.name}</h3>
               <p className="text-gray-400">{game.players}</p>
             </div>
