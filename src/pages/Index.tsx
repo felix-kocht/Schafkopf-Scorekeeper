@@ -7,6 +7,7 @@ import { Steps } from "@/components/Steps";
 import { Testimonials } from "@/components/Testimonials";
 import { Pricing } from "@/components/Pricing";
 import { Footer } from "@/components/Footer";
+import { CookieBanner } from "@/components/CookieBanner";
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <Testimonials />
       <Pricing />
       <Footer />
+      <CookieBanner />
     </div>
   );
 };
