@@ -13,21 +13,21 @@ export function Footer() {
             </p>
           </div>
           <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
+            <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  About
+                  Imprint
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Contact
+                  Privacy Policy
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-white">
-                  Privacy
+                  Terms of Use
                 </a>
               </li>
             </ul>

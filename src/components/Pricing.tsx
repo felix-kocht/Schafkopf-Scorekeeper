@@ -4,34 +4,34 @@ import { Button } from "@/components/ui/button";
 const plans = [
   {
     name: "Free",
-    price: "$0",
-    features: ["Basic score tracking", "Up to 3 games", "7-day history"],
+    price: "€0",
+    features: ["10 entries per day", "5 deletions per day", "Basic statistics"],
   },
   {
-    name: "Pro",
-    price: "$5/mo",
+    name: "Yearly",
+    price: "€15",
     features: [
-      "Unlimited games",
-      "30-day history",
-      "Statistics & analytics",
-      "Export data",
+      "Unlimited entries",
+      "Unlimited deletions",
+      "Advanced statistics",
+      "Priority support",
     ],
   },
   {
-    name: "Premium",
-    price: "$12/mo",
+    name: "Forever",
+    price: "€20",
     features: [
-      "Everything in Pro",
-      "Unlimited history",
+      "Everything in Yearly",
+      "Lifetime access",
+      "Early access to new features",
       "Custom game types",
-      "Priority support",
     ],
   },
 ];
 
 export function Pricing() {
   return (
-    <section className="py-20">
+    <section className="py-20 bg-navy-light">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 gradient-text">
           Simple, Transparent Pricing
@@ -40,7 +40,7 @@ export function Pricing() {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className="p-8 rounded-lg bg-navy-light border border-gray-800 hover:border-blue-500/50 transition-all duration-300"
+              className="p-8 rounded-lg bg-navy/50 backdrop-blur-sm border border-gray-800 hover:border-blue-500/50 transition-all duration-300"
             >
               <h3 className="text-2xl font-bold mb-2">{plan.name}</h3>
               <div className="text-3xl font-bold mb-6 text-blue-500">

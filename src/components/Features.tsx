@@ -1,36 +1,32 @@
-import { Clock, Gamepad, Layout, Smartphone } from "lucide-react";
+import { Zap, BarChart3, Users } from "lucide-react";
 
 const features = [
   {
-    icon: Clock,
-    title: "Real-time Updates",
-    description: "Track scores as they happen with instant synchronization.",
+    icon: Zap,
+    title: "Quick Entry with Autofill",
+    description: "Enter scores rapidly with smart autofill suggestions based on common patterns.",
   },
   {
-    icon: Gamepad,
-    title: "Multi-game Support",
-    description: "One tool for all your favorite card games.",
+    icon: BarChart3,
+    title: "Complete Overview",
+    description: "Get instant insights into game progress and total scores.",
   },
   {
-    icon: Layout,
-    title: "Simple Interface",
-    description: "Clean and intuitive design for effortless score tracking.",
-  },
-  {
-    icon: Smartphone,
-    title: "Cross-platform Access",
-    description: "Use on any device, anywhere, anytime.",
+    icon: Users,
+    title: "Flexible Player Support",
+    description: "Support for 2-7 players and custom amount tracking for any game type.",
   },
 ];
 
 export function Features() {
   return (
-    <section className="py-20 bg-navy-light">
-      <div className="container mx-auto px-4">
+    <section className="py-20 bg-navy-light relative overflow-hidden">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(59,130,246,0.1),transparent)]" />
+      <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 gradient-text">
-          Everything You Need
+          Powerful Features
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
