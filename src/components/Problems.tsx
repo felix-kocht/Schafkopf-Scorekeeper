@@ -23,7 +23,8 @@ export function Problems() {
     <section className="py-12 md:py-20 bg-gradient-to-b from-navy to-navy-light">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-          <span className="gradient-text">Problems</span> We Solve
+          <span className="gradient-text">Problems</span>{" "}
+          <span className="gradient-text">We Solve</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-5xl mx-auto">
           {problems.map((problem, index) => (

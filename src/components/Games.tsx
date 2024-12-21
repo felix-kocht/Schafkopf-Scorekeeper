@@ -1,12 +1,12 @@
-import { Gamepad } from "lucide-react";
+import { Gamepad2, Dice1, Dice2, Dice3, Dice4, Dice5 } from "lucide-react";
 
 const games = [
-  { name: "Schafkopf", players: "4 players" },
-  { name: "Skat", players: "3 players" },
-  { name: "Bridge", players: "4 players" },
-  { name: "Doppelkopf", players: "4 players" },
-  { name: "Poker", players: "2-10 players" },
-  { name: "Custom Games", players: "Any number" },
+  { name: "Schafkopf", players: "4 players", Icon: Dice1 },
+  { name: "Skat", players: "3 players", Icon: Dice2 },
+  { name: "Bridge", players: "4 players", Icon: Dice3 },
+  { name: "Doppelkopf", players: "4 players", Icon: Dice4 },
+  { name: "Poker", players: "2-10 players", Icon: Dice5 },
+  { name: "Custom Games", players: "Any number", Icon: Gamepad2 },
 ];
 
 export function Games() {
@@ -23,7 +23,7 @@ export function Games() {
               key={index}
               className="p-6 rounded-lg bg-navy-light border border-gray-800 hover:border-blue-500/50 transition-all duration-300 text-center group"
             >
-              <Gamepad className="w-12 h-12 mx-auto mb-4 text-blue-500 group-hover:text-blue-400 transition-colors" />
+              <game.Icon className="w-12 h-12 mx-auto mb-4 text-blue-500 group-hover:text-blue-400 transition-colors" />
               <h3 className="text-lg font-semibold mb-2">{game.name}</h3>
               <p className="text-sm text-gray-400">{game.players}</p>
             </div>
