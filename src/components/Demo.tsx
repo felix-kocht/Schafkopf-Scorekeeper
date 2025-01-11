@@ -6,9 +6,15 @@ export function Demo() {
           See It In Action
         </h2>
         <div className="aspect-video max-w-4xl mx-auto rounded-xl overflow-hidden border border-gray-800">
-          <div className="w-full h-full bg-navy-light flex items-center justify-center">
-            <p className="text-gray-400">Demo video coming soon</p>
-          </div>
+          <iframe 
+            className="w-full h-full"
+            src="https://www.youtube.com/embed/kXTM4-y5Eh4?si=Ao9ixyZxP233RsR_" 
+            title="YouTube video player" 
+            frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
         </div>
       </div>
     </section>
