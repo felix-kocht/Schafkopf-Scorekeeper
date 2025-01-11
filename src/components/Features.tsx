@@ -20,7 +20,7 @@ const features = [
 
 export function Features() {
   return (
-    <section className="py-20 bg-navy-light relative overflow-hidden">
+    <section id="features" className="py-20 bg-navy-light relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(59,130,246,0.1),transparent)]" />
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 gradient-text">
