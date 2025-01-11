@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 
 export function Hero() {
   const handleLearnMore = () => {
     const featuresSection = document.querySelector('#features');
-    featuresSection?.scrollIntoView({ behavior: 'smooth' });
+    if (featuresSection) {
+      featuresSection.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
@@ -37,7 +39,7 @@ export function Hero() {
                 className="gap-2 w-full sm:w-auto"
                 onClick={handleLearnMore}
               >
-                Learn More <ArrowRight className="w-4 h-4" />
+                Learn More <ArrowDown className="w-4 h-4" />
               </Button>
             </div>
           </div>
