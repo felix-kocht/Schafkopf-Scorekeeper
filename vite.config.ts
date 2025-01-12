@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: mode === "production" ? "/felix-kocht/" : "/",
+  base: "/", // Use "/" for a custom domain
   plugins: [
     react(),
     mode === "development" && componentTagger(),
