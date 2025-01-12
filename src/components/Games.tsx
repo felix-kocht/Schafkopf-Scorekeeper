@@ -1,11 +1,11 @@
-import { Gamepad2, Dice1, Dice2, Dice3, Dice4, Dice5 } from "lucide-react";
+import { Gamepad2, Dice1, Dice2, Dice3, Dice4, Dice5, Spade, Heart, Club, LeafyGreen, Cherry, Coins } from "lucide-react";
 
 const games = [
-  { name: "Schafkopf", players: "4 players", Icon: Dice1 },
-  { name: "Skat", players: "3 players", Icon: Dice2 },
-  { name: "Bridge", players: "4 players", Icon: Dice3 },
-  { name: "Doppelkopf", players: "4 players", Icon: Dice4 },
-  { name: "Poker", players: "2-10 players", Icon: Dice5 },
+  { name: "Schafkopf", players: "4+ players", Icon: LeafyGreen },
+  { name: "Skat", players: "3+ players", Icon: Spade },
+  { name: "Bridge", players: "4+ players", Icon: Club },
+  { name: "Doppelkopf", players: "4+ players", Icon: Cherry },
+  { name: "Poker", players: "2-12 players", Icon: Coins },
   { name: "Custom Games", players: "Any number", Icon: Gamepad2 },
 ];
 

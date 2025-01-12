@@ -1,21 +1,15 @@
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Bridge Player",
-    image: "/placeholder.svg",
-    quote: "This app has completely transformed how we track scores in our weekly bridge club. No more paper sheets!",
+    name: "Elias Zorgati",
+    quote: "Damit kann ja jeder Otto aufschreiben! \n(English: With this any Fool can keep score!)",
   },
   {
-    name: "Michael Schmidt",
-    role: "Skat Enthusiast",
-    image: "/placeholder.svg",
-    quote: "Perfect for our Skat rounds. The calculations are always correct, and it's so easy to use.",
+    name: "Michael Frank",
+    quote: "Very nice, directly recommended it to another friend who could use this.",
   },
   {
-    name: "Thomas Weber",
-    role: "Card Game Host",
-    image: "/placeholder.svg",
-    quote: "Whether it's Schafkopf or Poker, this app handles everything perfectly. Best investment for our game nights.",
+    name: "You",
+    quote: "Feel free to submit your opinion to the email felix.koch@mail.de",
   },
 ];
 
@@ -33,16 +27,10 @@ export function Testimonials() {
               className="p-8 rounded-lg bg-navy-light border border-gray-800 relative"
             >
               <div className="absolute -top-6 left-1/2 -translate-x-1/2">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full border-2 border-blue-500"
-                />
               </div>
               <div className="pt-8 text-center">
                 <p className="text-gray-300 mb-4">"{testimonial.quote}"</p>
-                <h3 className="font-semibold">{testimonial.name}</h3>
-                <p className="text-sm text-gray-400">{testimonial.role}</p>
+                <h3 className="font-bold">{testimonial.name}</h3>
               </div>
             </div>
           ))}

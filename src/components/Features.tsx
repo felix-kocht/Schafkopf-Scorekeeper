@@ -4,17 +4,17 @@ const features = [
   {
     icon: Zap,
     title: "Quick Entry with Autofill",
-    description: "Enter scores rapidly with smart autofill suggestions based on common patterns.",
+    description: "Enter scores rapidly with smart autofill suggestions for zero sum games.",
   },
   {
     icon: BarChart3,
     title: "Complete Overview",
-    description: "Get instant insights into game progress and total scores.",
+    description: "Get full insights into the score history and total scores.",
   },
   {
     icon: Users,
     title: "Flexible Player Support",
-    description: "Support for 2-7 players and custom amount tracking for any game type.",
+    description: "Support for 2-12 players and custom score tracking settings for any game type.",
   },
 ];
 
