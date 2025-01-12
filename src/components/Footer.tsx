@@ -6,7 +6,7 @@ export function Footer() {
             <a href="/termly_3.html" className="text-gray-400 hover:text-white transition-colors">
             Privacy Policy
             </a>
-            <a href="/imprint" className="text-gray-400 hover:text-white transition-colors">
+            <a href="/imprint.html" className="text-gray-400 hover:text-white transition-colors">
             Imprint
             </a>
         </div>
