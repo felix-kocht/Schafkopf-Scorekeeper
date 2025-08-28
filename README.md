@@ -16,7 +16,7 @@ For instructions on usage, view the explainer video on the landing page.
 Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
-For changes to the app, please refer to this [repo]([url](https://github.com/felix-kocht/Schafkopf-Scorekeeper-App))
+For changes to the app, please refer to this [repository](https://github.com/felix-kocht/Schafkopf-Scorekeeper-App)
 
 ## License
 
