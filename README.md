@@ -13,10 +13,10 @@ For instructions on usage, view the explainer video on the landing page.
 
 ## Contributing
 
-Change suggestions for the landing page and pull requests are welcome. For major changes, please open an issue first
+Pull requests are welcome. For major changes, please open an issue first
 to discuss what you would like to change.
 
-For changes to the app reach out to me via felix.koch@mail.de, as the app repo is currently private.
+For changes to the app, please refer to this [repo]([url](https://github.com/felix-kocht/Schafkopf-Scorekeeper-App))
 
 ## License
 
