@@ -4,7 +4,7 @@ Schafkopf Scorekeeper is a landing page with explanation and a link to a score t
 
 ## Access
 
-Use the URL the-scorekeeper.com to view the landing page or the URL https://grand-pegasus-1a9e49.netlify.app to go directly to the app.
+Use the URL [the-scorekeeper.com](https://the-scorekeeper.com) to view the landing page or the URL https://grand-pegasus-1a9e49.netlify.app to go directly to the app.
 
 
 ## Usage
